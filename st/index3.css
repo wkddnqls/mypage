@@ -119,7 +119,7 @@ ol,ul,li{list-style: none;}
 }
 
 .search input[type="text"] {
-  flex: 1; /* 입력창이 남는 공간 다 차지 */
+  flex: 1; 
   height: 40px;
   border: none;
   outline: none;
@@ -134,7 +134,7 @@ ol,ul,li{list-style: none;}
   margin-left: 8px;
   border: none;
   border-radius: 8px;
-  background: #007bff; /* 파란색 */
+  background: #007bff; 
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -143,8 +143,8 @@ ol,ul,li{list-style: none;}
 }
 
 .search input[type="button"]:hover {
-  background: red; /* hover 시 진한 파랑 */
-  transform: translateY(-2px); /* 살짝 떠오르는 효과 */
+  background: red; 
+  transform: translateY(-2px); 
 }
 
  :root {
