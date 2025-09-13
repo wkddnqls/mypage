@@ -173,15 +173,15 @@ ol,ul,li{list-style: none;}
 
 
 .search2 {
-    position: absolute;          /* 부모를 기준으로 위치 지정 */
-    top: 30%;                    /* 세로 중앙 */
-    left: 50%;                   /* 가로 중앙 */
-    transform: translate(-50%, -50%); /* 정확히 중앙 */
+    position: absolute;         
+    top: 30%;                    
+    left: 50%;                   
+    transform: translate(-50%, -50%); 
     
     display: flex;
     align-items: center;
-    width: 50%;               /* 화면 가로의 50%만 차지 */
-    max-width: 600px;         /* 최대 크기 제한 */
+    width: 50%;               
+    max-width: 600px;       
     min-width: 300px;  
     gap: 4px;                   
     padding: 10px 15px;
@@ -200,7 +200,7 @@ ol,ul,li{list-style: none;}
     outline: none;
 }
 
-/* 버튼 */
+
 .search2 input[type="button"] {
     padding: 8px 16px;
     border-radius: 8px;
@@ -221,14 +221,14 @@ ol,ul,li{list-style: none;}
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* 세로 정렬 */
-    align-items: center;    /* 가로 중앙 */
-    gap: 20px;              /* 이미지와 검색창 사이 간격 */
+    flex-direction: column; 
+    align-items: center;  
+    gap: 20px;              
     z-index: 1;
 }
 
 .ground-img {
-    max-width: 200px;       /* 이미지 크기 조절 */
+    max-width: 200px;      
     width: 100%;
     height: auto;
 }
@@ -249,7 +249,7 @@ ol,ul,li{list-style: none;}
     text-align: left;
     font-size: 20px;
     margin-bottom: 20px;
-    color: #0ea5e9; /* 강조 색상 */
+    color: #0ea5e9; 
 }
 
 .meta-table {
@@ -266,12 +266,12 @@ ol,ul,li{list-style: none;}
 
 .meta-table th {
     background: #f9fafb;
-    color: #6b7280; /* muted 색상 */
+    color: #6b7280; 
     font-weight: 600;
 }
 
 .meta-table tbody tr:hover {
-    background: #f1f9ff; /* 마우스 오버 효과 */
+    background: #f1f9ff; 
 }
 
 .meta-table tbody td:first-child {
@@ -280,8 +280,8 @@ ol,ul,li{list-style: none;}
 }
 
 .table-date {
-    text-align: right;       /* 오른쪽 끝 정렬 */
+    text-align: right;      
     font-size: 12px;
-    color: #6b7280;          /* muted 색상 */
-    margin-bottom: 5px;      /* 테이블과 간격 */
+    color: #6b7280;          
+    margin-bottom: 5px;      
 }
